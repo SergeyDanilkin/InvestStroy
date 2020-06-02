@@ -112,4 +112,22 @@ header .dropdown-menu a{
 
 footer{
     background: #155caa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#ffffff;
+}
+footer p{
+    margin-bottom: 0;
+}
+footer ul{
+    padding: 0;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    color:#ffffff;
+}
+footer a:hover{
+    color:#cccccc;
 }
