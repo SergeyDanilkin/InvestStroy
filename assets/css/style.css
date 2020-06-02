@@ -131,3 +131,12 @@ footer a{
 footer a:hover{
     color:#cccccc;
 }
+
+.breadcrumb{
+    margin-top: 10px;
+}
+
+.carousel-inner .btn{
+    color:#ffffff;
+    background: #155caa;
+}

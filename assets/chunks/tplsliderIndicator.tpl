@@ -1,0 +1,1 @@
+<li data-target="#mainSlider" data-slide-to="[[+idx:subtract]]" [[+idx:is=`1`:then=`class="active"`]]></li>

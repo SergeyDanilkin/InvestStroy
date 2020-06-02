@@ -1,1 +1,2 @@
-tyu
+<?php
+return date('Y');
