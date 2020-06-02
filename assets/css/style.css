@@ -3,8 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     color: #5a5a5a;
 }
 
@@ -84,8 +82,34 @@ body {
     }
 }
 
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
-    }
+
+
+/***************************************/
+
+a{
+    color:#2273ac;
+}
+
+.dropdown:hover > .dropdown-menu {display:block;}
+
+header{
+    background: #155caa;
+}
+
+header a{
+    color:#ffffff;
+}
+header a:hover{
+    color:#cccccc;
+}
+header .dropdown-menu a{
+    color:#155caa;
+}
+
+.header-contacts svg{
+    margin-right:10px;
+}
+
+footer{
+    background: #155caa;
 }

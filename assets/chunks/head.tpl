@@ -6,3 +6,4 @@
 <meta name="description" content="[[*description]]">
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="/assets/css/style.css" rel="stylesheet">
+<script defer src="/assets/js/fontawesome.min.js"></script>

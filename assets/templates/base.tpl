@@ -10,8 +10,6 @@
         <main role="main">
             [[*content]]
         </main>
-        <footer>
-
-        </footer>
+        [[!$footer?]]
     </body>
 </html>
