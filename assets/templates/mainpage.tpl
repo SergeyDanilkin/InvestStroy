@@ -24,6 +24,29 @@
                     <span class="sr-only">Следующий</span>
                 </a>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center"><h2>О нас</h2></div>
+                        [[*content]]
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center"><h2>Наши услуги</h2></div>
+                    </div>
+                </div>
+                <div class="row">
+                    [[getResources?
+                        &tpl=`card`
+                        &limit=`20`
+                        &depth=`1`
+                        &parents=`6`
+                        &includeTVs=`1`
+                        &includeContent=`1`
+                    ]]
+                </div>
+            </div>
         </main>
         [[!$footer?]]
     </body>

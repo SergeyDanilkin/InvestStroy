@@ -12,7 +12,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -139,4 +139,11 @@ footer a:hover{
 .carousel-inner .btn{
     color:#ffffff;
     background: #155caa;
+}
+
+h2{
+    display: inline-block;
+    border-bottom: 3px solid #155caa;
+    margin-bottom: 20px;
+
 }
