@@ -6,6 +6,20 @@ body {
     color: #5a5a5a;
 }
 
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -146,4 +160,57 @@ h2{
     border-bottom: 3px solid #155caa;
     margin-bottom: 20px;
 
+}
+.card{
+    margin-bottom: 30px;
+}
+.card a:hover{
+    text-decoration: none;
+}
+.card a:hover h5{
+    color:#155caa;
+}
+.card h5{
+    font-size: 20px;
+    text-decoration: none;
+    color:#155caa;
+    font-weight: bold;
+    min-height: 50px;
+}
+
+.card p{
+    color:#5a5a5a;
+    min-height: 75px;
+}
+
+.imgZoomWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.imgZoom{
+    position: relative;
+}
+.imgZoom .imgZoom--icon{
+    display: none;
+    width:80px;
+    height: 80px;
+    background: #FFF;
+    border-radius: 80px;
+    text-align: center;
+    font-size:40px;
+    line-height: 80px;
+    position: absolute;
+    top:calc(50% - 40px);
+    right:calc(50% - 40px);
+    opacity: 0.7;
+    cursor: pointer;
+}
+.imgZoom:hover .imgZoom--icon{
+    display: block;
+}
+.imgZoom a{
+    width: 222px;
+    height: 222px;
+    display: block;
 }

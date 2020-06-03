@@ -44,7 +44,26 @@
                         &parents=`6`
                         &includeTVs=`1`
                         &includeContent=`1`
+                        &showHidden=`1`
                     ]]
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center"><h2>Выполненные объекты</h2></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 imgZoomWrapper">
+                        [[getResources?
+                        &tpl=`imgZoom`
+                        &limit=`20`
+                        &depth=`1`
+                        &parents=`7`
+                        &includeTVs=`1`
+                        &includeContent=`1`
+                        &showHidden=`1`
+                        ]]
+                    </div>
                 </div>
             </div>
         </main>

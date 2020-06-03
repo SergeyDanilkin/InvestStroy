@@ -17,7 +17,7 @@
                 &tpl=`@INLINE <li[[+classes]]><a class="nav-link" href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>`
                 &tplOuter=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>`
                 &tplInner=`@INLINE <ul class="dropdown-menu">[[+wrapper]]</ul>`
-                &tplParentRow=`@INLINE <li [[+classes]]><a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="[[+link]]" [[+attributes]]>[[+menutitle]] </a>[[+wrapper]]</li>`
+                &tplParentRow=`@INLINE <li [[+classes]]><a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="[[+link]]" [[+attributes]]>[[+menutitle]] </a>[[+wrapper]]</li>`
             ]]
             <div class="mt-2 mt-md-0 header-contacts">
                 <a href="tel:375293500034"><i class="fas fa-phone-alt"></i>+375(29)350-00-34</a><br>
