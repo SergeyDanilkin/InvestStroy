@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md">
+<nav class="navbar navbar-expand-md navbar-dark">
     <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" ></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

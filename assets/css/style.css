@@ -214,3 +214,61 @@ h2{
     height: 222px;
     display: block;
 }
+.contacts{
+    background: #FFF;
+    margin-top:-100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    -webkit-box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.4);
+}
+.contacts-inner{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contacts-inner--mark{
+    width: 60px;
+    height:60px;
+    border-radius: 60px;
+    line-height: 60px;
+    color:#FFF;
+    font-size: 32px;
+    text-align: center;
+    background: #155caa;
+    flex-shrink: 0;
+    margin-right:10px;
+}
+.contacts-inner p{
+    margin-bottom: 0;
+}
+
+.form_contacts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-dark .dropdown-menu .nav-link {
+    color: #155caa;
+}
+.navbar-dark .dropdown-menu .nav-link:hover {
+    color: #155caa;
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu.nav-link {
+        color: #155caa;
+    }
+}
+@media (max-width: 540px) {
+    .contacts{
+        margin-top: 0;
+        box-shadow: unset;
+        -webkit-box-shadow: unset;
+        -moz-box-shadow: unset;
+    }
+}
