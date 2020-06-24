@@ -161,9 +161,6 @@ h2{
     margin-bottom: 20px;
 
 }
-.card{
-    margin-bottom: 30px;
-}
 .card a:hover{
     text-decoration: none;
 }
@@ -210,8 +207,6 @@ h2{
     display: block;
 }
 .imgZoom a{
-    width: 222px;
-    height: 222px;
     display: block;
 }
 .contacts{
@@ -257,6 +252,10 @@ h2{
 }
 .navbar-dark .dropdown-menu .nav-link:hover {
     color: #155caa;
+}
+
+.item{
+    margin-bottom:30px;
 }
 
 @media (max-width: 768px) {

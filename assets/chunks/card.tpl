@@ -1,5 +1,5 @@
 <div class="col-sm-4">
-    <div class="card">
+    <div class="card item">
         <a href="[[~[[+id]]]]">
             <img class="card-img-top" src="[[+tv.image]]">
             <div class="card-body">
